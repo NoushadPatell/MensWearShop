@@ -6,6 +6,7 @@ import { authAPI } from '../api';
 import { useApp } from '../context';
 
 const GOOGLE_CLIENT_ID = "604795302769-697ba4370q8rrnn17dvljil4rq4324kf.apps.googleusercontent.com"; // Replace with your actual Google Client ID
+// const GOOGLE_CLIENT_ID = import.meta.env.VITE_GOOGLE_ID;
 
 export const Login: React.FC = () => {
   const navigate = useNavigate();

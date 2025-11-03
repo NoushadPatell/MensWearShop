@@ -1,8 +1,8 @@
 import axios from 'axios';
 import { type AuthResponse, type Product, type Order } from './types';
 
-// 'http://localhost:8080/api'
-const API_BASE = import.meta.env.VITE_API_BASE;
+const API_BASE = 'http://localhost:8080/api';
+// const API_BASE = import.meta.env.VITE_API_BASE;
 
 const api = axios.create({
   baseURL: API_BASE,
